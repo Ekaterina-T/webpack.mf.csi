@@ -1,0 +1,15 @@
+{
+  "name": "ap.mf.csi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run-all-dev": "node run-dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cross-spawn": "^7.0.3"
+  }
+}

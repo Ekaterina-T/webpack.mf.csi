@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    border: 2px solid rgb(123, 194, 17);
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    &__input-area {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

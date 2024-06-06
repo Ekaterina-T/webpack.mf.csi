@@ -1,0 +1,64 @@
+{
+  "pages": {
+    "404": {
+      "meta": {
+        "title": "Page not found"
+      }
+    },
+    "noAccess": {
+      "meta": {
+        "title": "The page is unavailable"
+      },
+      "user": "Dear user!",
+      "prolongation": "This page is temporarily unavailable. To extend your contract, please contact the sales department.",
+      "goTo": "Go to ",
+      "linkBilling": "Billing page."
+    }
+  },
+  "navigation": {
+    "showLabel": "Show by",
+    "goToPage": "Go to page",
+    "goTo": "Go to"
+  },
+  "filter": {
+    "apply": "Apply",
+    "drop": "Reset",
+    "from": "From",
+    "to": "To",
+    "ID": "Enter the ID...",
+    "Fio": "Enter full name...",
+    "Email": "Enter E-mail..."
+  },
+  "popup": {
+    "close": "Close"
+  },
+  "labels": {
+    "days": "0 days | day | days | days",
+    "hours": "0 hours | hour | hour | hour",
+    "minutes": "0 minutes | minute | minutes | minutes",
+    "seconds": "0 seconds | second | seconds | seconds"
+  },
+  "loader": {
+    "text": "Uploading"
+  },
+  "time": {
+    "days": "d.",
+    "hours": "h.",
+    "minutes": "min.",
+    "seconds": "sec."
+  },
+  "monthList": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
+}

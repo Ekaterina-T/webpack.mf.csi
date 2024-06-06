@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "lib": [ "ESNext", "DOM" ],
+    "types": ["@types/node"],
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@models/*": ["src/models/*"],
+      "@modules": ["src/modules"],
+      "@modules/*": ["src/modules/*"],
+      "@localization": ["src/localization"],
+      "@localization/*": ["src/localization/*"],
+      "@infrastructure/*": ["src/infrastructure/*"]
+    }
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+  ]
+}
